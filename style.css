@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-slider {
+    background-color: #FEEAE9;
+    border-radius: 20px;
+}
+
+.fs-category {
+    background: linear-gradient( #FF9C35 1.47%, #FFD019 97.17%);
+    border-radius: 10px;
+}
+
+.sc-category {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 10px;
+}
+
+.ls-category {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    border-radius: 10px;
+}
+
+#categoy {
+    margin: 0 100px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+button {
+    outline: none;
+    border: 2px solid transparent;
+    padding: 5px 13px;
+    background-image: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    transition: button 1s ease;
+}
+
+button:hover {
+    border: 2px solid #FF589B;
+    background-image: linear-gradient(90deg, #FF136F 99.99%, #FF589B -0.01%);
+}
+
+#shose .border-0,
+#Backpack .border-0 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all .6s ease;
+}
+
+#shose .border-0:hover,
+#Backpack .border-0 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+section {
+    margin: 30px 0;
+}
+
+#contact .container {
+    background-color: #FFF2F1;
+}
